@@ -1,5 +1,6 @@
 # useful-functions
 rotate and crop
+
 def rotate_image(img, angle, crop):
 
     h, w = img.shape[:2]
