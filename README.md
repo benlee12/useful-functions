@@ -2,7 +2,6 @@
 rotate and crop
 
 def rotate_image(img, angle, crop):
-
     h, w = img.shape[:2]
     angle %= 360
     M_rotation = cv2.getRotationMatrix2D((w / 2, h / 2), angle, 1)
